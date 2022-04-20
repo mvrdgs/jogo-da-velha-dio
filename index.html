@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Jogo da Velha - DIO</h1>
+
+    <div>
+      <div class="line">
+        <div class="cell" id="1" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="2" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="3" onclick="chooseCell(this)">
+          -
+        </div>
+      </div>
+      <div class="line">
+        <div class="cell" id="4" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="5" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="6" onclick="chooseCell(this)">
+          -
+        </div>
+      </div>
+      <div class="line">
+        <div class="cell" id="7" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="8" onclick="chooseCell(this)">
+          -
+        </div>
+        <div class="cell" id="9" onclick="chooseCell(this)">
+          -
+        </div>
+      </div>
+    </div>
+    <h3>
+      Jogador: <span id="player"></span>
+    </h3>
+    <h3>
+      Vencedor: <span id="winner"></span>
+    </h3>
+    <button onclick="resetGame()">Reiniciar</button>
+  </body>
+
+  <script src="script.js"></script>
+</html>

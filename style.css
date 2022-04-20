@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+.cell {
+  display: inline-block;
+  padding: 40px;
+  background-color: #eee;
+  margin: 5px;
+  color: #eee;
+  width: 50px;
+  font-size: 60px;
+}
